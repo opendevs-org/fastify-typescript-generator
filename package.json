@@ -60,10 +60,12 @@
   },
   "homepage": "https://github.com/open-devs/fastify-generator-typescript#readme",
   "dependencies": {
+    "cfonts": "^2.8.6",
     "ncp": "^2.0.0",
-    "prompt": "^1.0.0"
+    "prompts": "^2.3.2"
   },
   "devDependencies": {
+    "eslint": "^7.7.0",
     "git-cz": "^4.7.0"
   },
   "config": {
