@@ -87,6 +87,6 @@ get(schema, (error, argv) => {
     } else {
         console.log(`Option Chosen:\n${options[argv.option].templateName}\nDirectory Chosen/Default:\n${argv.path}\nProject Name:\n${argv.projectName || options[argv.option].defaultName}`);
         console.log(`Starting Project creation...`);
-        initiate(options[argv.option], argv.path, argv.projectName);
+        initiate(options[argv.option - 1], argv.path, argv.projectName);
     }
 });
