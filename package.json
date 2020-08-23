@@ -1,7 +1,7 @@
 {
-  "name": "fastify-generator-typescript",
+  "name": "fastify-typescript-generator",
   "version": "0.0.1BETA",
-  "description": "Generate new Express applications similar to express-generate which but sets it up to use TypeScript instead",
+  "description": "Generate new Fastify applications similar to express-generate which but sets it up to use TypeScript instead",
   "scripts": {
     "fastify-generator-typescript": "node cli.js",
     "start": "node cli.js",
