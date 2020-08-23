@@ -1,0 +1,64 @@
+{
+  "name": "fastify-generator-typescript",
+  "version": "1.6.5",
+  "description": "Generate new Express applications similar to express-generate which but sets it up to use TypeScript instead",
+  "scripts": {
+    "fastify-generator-typescript": "node cli.js",
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "cli.js",
+  "bin": {
+    "fastify-generator-typescript": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-devs/fastify-generator-typescript.git"
+  },
+  "keywords": [
+    "generator",
+    "generate",
+    "fastify",
+    "fast",
+    "express",
+    "ex",
+    "mongodb",
+    "mongo",
+    "typeorm",
+    "orm",
+    "swagger",
+    "open",
+    "open-api",
+    "gen",
+    "typescript",
+    "ts",
+    "types",
+    "typing",
+    "overnight",
+    "overnightjs",
+    "js",
+    "new",
+    "app",
+    "decorators",
+    "decorate",
+    "test",
+    "testing",
+    "routes",
+    "router",
+    "routing"
+  ],
+  "author": "open devs (open.devs.github@gmail.com)",
+  "contributors": [
+    "Mihir Kumar (mikr13)",
+    "Alok Raj (alok722)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-devs/fastify-generator-typescript/issues"
+  },
+  "homepage": "https://github.com/open-devs/fastify-generator-typescript#readme",
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "prompt": "^1.0.0"
+  }
+}

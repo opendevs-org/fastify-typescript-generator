@@ -1,0 +1,9 @@
+{
+    "type": "mongodb",
+    "url": "mongodb://localhost:27017/fastify",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "logging": true,
+    "entities": ["src/entity/*.*"],
+    "useUnifiedTopology": true
+}
