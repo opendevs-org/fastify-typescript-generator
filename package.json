@@ -5,7 +5,9 @@
   "scripts": {
     "fastify-generator-typescript": "node cli.js",
     "start": "node cli.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit-a": "git add . && git cz",
+    "commit": "git cz"
   },
   "main": "cli.js",
   "bin": {
@@ -60,5 +62,13 @@
   "dependencies": {
     "ncp": "^2.0.0",
     "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "git-cz": "^4.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
   }
 }
