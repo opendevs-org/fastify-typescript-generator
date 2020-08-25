@@ -71,7 +71,7 @@ in this application you have two options to setup a project in fastify plugin ar
 </table>
 <br>
 
-Happy web-deving 😊
+happy app-deving 😊
 
 ## author
 
@@ -86,18 +86,18 @@ Happy web-deving 😊
 * adding template support
 * more template structures
 
-## 🤝 Contributing
+## 🤝 contributing
 
 contributions, issues and feature requests are welcome!<br />feel free to check [issues page](https://github.com/open-devs/fastify-typescript-generator/issues). you can also take a look at the [contributing guide](https://github.com/open-devs/fastify-typescript-generator/blob/master/CONTRIBUTING.md).
 
-## Show your support
+## show your support
 
-Give a ⭐️ if this project helped you!
+give a ⭐️ if this project helped you!
 
-## 📝 License
+## 📝 license
 
-Copyright © 2020 [open devs (open.devs.github@gmail.com)](https://github.com/open-devs).<br />
+copyright © 2020 [open devs (open.devs.github@gmail.com)](https://github.com/open-devs).<br />
 This project is [MIT](https://github.com/open-devs/fastify-typescript-generator/blob/master/LICENSE) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_this README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
