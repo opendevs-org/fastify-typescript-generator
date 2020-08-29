@@ -1,6 +1,6 @@
 {
   "name": "fastify-typescript-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generate new Fastify applications similar to express-generate which but sets it up to use TypeScript instead",
   "scripts": {
     "fastify-generator-typescript": "node cli.js",
@@ -9,13 +9,17 @@
     "commit-a": "git add . && git cz",
     "commit": "git cz"
   },
-  "main": "cli.js",
-  "bin": {
-    "fastify-generator-typescript": "cli.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/open-devs/fastify-generator-typescript.git"
+    "url": "git+https://github.com/open-devs/fastify-typescript-generator.git"
+  },
+  "main": "./lib/cli.js",
+  "module": "./lib/cli.js",
+  "unpkg": "./lib/cli.js",
+  "bin": {
+    "fastify-gen": "./bin/fastify-typescript-generator.js",
+    "fastify-ts-gen": "./bin/fastify-typescript-generator.js",
+    "fastify-typescript-generator": "./bin/fastify-typescript-generator.js"
   },
   "keywords": [
     "generator",
@@ -55,6 +59,7 @@
     "Alok Raj (alok722)"
   ],
   "license": "MIT",
+  "private": false,
   "bugs": {
     "url": "https://github.com/open-devs/fastify-generator-typescript/issues"
   },

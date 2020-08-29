@@ -19,13 +19,13 @@
 ## install
 
 ```sh
-npm install
+npm i -g fastify-typescript-generator
 ```
 
 ## usage
 
 ```sh
-npm run start
+fastify-typescript-generator
 ```
 
 ## ❓ what is it
