@@ -24,8 +24,14 @@ npm i -g fastify-typescript-generator
 
 ## usage
 
+Run anyone of following commands:
+
 ```sh
+fastify-gen
+# or
 fastify-typescript-generator
+# or
+fastify-ts-gen
 ```
 
 ## ❓ what is it
