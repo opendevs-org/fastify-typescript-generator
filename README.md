@@ -1,6 +1,11 @@
 <h1 align="center">welcome to fastify-typescript-generator 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.3-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/github/package-json/v/open-devs/fastify-typescript-generator" />
+  <a href="https://www.npmjs.com/package/fastify-typescript-generator" target="_blank">
+    <img alt="npm" src="https://img.shields.io/npm/v/fastify-typescript-generator">
+  </a>
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/fastify-typescript-generator">
+  <img alt="npm" src="https://img.shields.io/npm/dm/fastify-typescript-generator">
   <a href="https://github.com/open-devs/fastify-typescript-generator#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-blue.svg" />
   </a>
@@ -8,13 +13,16 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained-yes-blue.svg" />
   </a>
   <a href="https://github.com/open-devs/fastify-typescript-generator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/open-devs/fastify-typescript-generator" />
+  <img alt="License: MIT" src="https://img.shields.io/npm/l/fastify-typescript-generator" />
+  <img alt="Snyk Vulnerabilities for npm package" src="https://img.shields.io/snyk/vulnerabilities/npm/fastify-typescript-generator">
   </a>
 </p>
 
 > generates new [fastify](https://www.fastify.io/) applications in everyone's favourite language [typescript](https://github.com/microsoft/TypeScript) with various options to choose from based on your project needs
 
 ### 🏠 [homepage](https://github.com/open-devs/fastify-typescript-generator#readme)
+
+### 📰 [npm](https://www.npmjs.com/package/fastify-typescript-generator)
 
 ## install
 
