@@ -24,6 +24,10 @@
 
 ### 📰 [npm](https://www.npmjs.com/package/fastify-typescript-generator)
 
+## 📸 demo
+
+![fastify-typescript-generator-demo](.demo/fastify-ts-gen-demo.gif)
+
 ## install
 
 ```sh
@@ -109,7 +113,7 @@ contributions, issues and feature requests are welcome!<br />feel free to check 
 
 give a ⭐️ if this project helped you!
 
-<a href="https://www.buymeacoffee.com/opendevs" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/opendevs" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## 📝 license
 
