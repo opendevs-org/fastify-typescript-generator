@@ -44,7 +44,7 @@ fastify-ts-gen
 
 ## ❓ what is it
 
-creates a new fastify application similar to the fastify-cli module. except this new application is configured to use typeScript instead of plain javascript and provides various options such as, kind of project structure to use with focus on plugin structure for fastify developers and express structure for developers with experience in developing with express, it also provides options for typeorm or mongoose.
+creates a new fastify application as a starter boilerplate similar to the fastify-cli module. except this new application is configured to use typeScript instead of plain javascript and provides various options such as, kind of project structure to use with focus on plugin structure for fastify developers and express structure for developers with experience in developing with express, it also provides options for typeorm or mongoose.
 
 ## 🤔 why fastify-typescript-generator
 

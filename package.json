@@ -1,6 +1,6 @@
 {
   "name": "fastify-typescript-generator",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "Generate new Fastify applications similar to express-generate which but sets it up to use TypeScript instead",
   "preferGlobal": true,
   "scripts": {
@@ -27,6 +27,10 @@
     "generate",
     "fastify",
     "fast",
+    "boilerplate",
+    "starter",
+    "start",
+    "template",
     "express",
     "ex",
     "mongodb",
