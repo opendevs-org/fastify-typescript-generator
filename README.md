@@ -31,7 +31,7 @@
 ## install
 
 ```sh
-npm i -g fastify-typescript-generator
+$ npm i -g fastify-typescript-generator
 ```
 
 ## usage
@@ -39,11 +39,17 @@ npm i -g fastify-typescript-generator
 Run anyone of following commands:
 
 ```sh
-fastify-gen
+$ fastify-gen
 # or
-fastify-typescript-generator
+$ fastify-typescript-generator
 # or
-fastify-ts-gen
+$ fastify-ts-gen
+```
+
+Or, to avoid installation and usage simply use the following command:
+
+```sh
+$ npx fastify-typescript-generator
 ```
 
 ## ❓ what is it
