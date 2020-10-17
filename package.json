@@ -1,11 +1,11 @@
 {
   "name": "fastify-typescript-generator",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Generate new Fastify applications similar to express-generate which but sets it up to use TypeScript instead",
   "preferGlobal": true,
   "scripts": {
-    "fastify-generator-typescript": "node cli.js",
-    "start": "node cli.js",
+    "fastify-generator-typescript": "node lib/cli.js",
+    "start": "node lib/cli.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit-a": "git add . && git cz",
     "commit": "git cz",
