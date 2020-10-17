@@ -1,12 +1,12 @@
 {
   "name": "fastify-typescript-generator",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Generate new Fastify applications similar to express-generate which but sets it up to use TypeScript instead",
   "preferGlobal": true,
   "scripts": {
     "fastify-generator-typescript": "node lib/cli.js",
     "start": "node lib/cli.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "snyk test",
     "commit-a": "git add . && git cz",
     "commit": "git cz",
     "snyk-protect": "snyk protect"
@@ -77,7 +77,7 @@
     "cfonts": "^2.8.6",
     "ncp": "^2.0.0",
     "prompts": "^2.3.2",
-    "snyk": "^1.369.3"
+    "snyk": "^1.414.1"
   },
   "devDependencies": {
     "eslint": "^7.7.0",
