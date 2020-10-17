@@ -1,6 +1,6 @@
 {
   "name": "fastify-typescript-generator",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Generate new Fastify applications similar to express-generate which but sets it up to use TypeScript instead",
   "preferGlobal": true,
   "scripts": {
@@ -8,7 +8,8 @@
     "start": "node cli.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit-a": "git add . && git cz",
-    "commit": "git cz"
+    "commit": "git cz",
+    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -75,7 +76,8 @@
   "dependencies": {
     "cfonts": "^2.8.6",
     "ncp": "^2.0.0",
-    "prompts": "^2.3.2"
+    "prompts": "^2.3.2",
+    "snyk": "^1.369.3"
   },
   "devDependencies": {
     "eslint": "^7.7.0",
@@ -83,7 +85,8 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/git-cz"
+      "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "snyk": true
 }
