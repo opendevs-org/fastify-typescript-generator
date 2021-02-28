@@ -16,7 +16,6 @@
     "paths": {
       "*": ["node_modules/*"]
     },
-
     "noImplicitAny": false,
     "lib": ["es6"]
   }

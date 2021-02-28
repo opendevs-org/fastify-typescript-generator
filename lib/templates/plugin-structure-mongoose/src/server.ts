@@ -1,5 +1,4 @@
 import fastify from 'fastify';
-import cors from 'cors';
 
 import healthHandler from './modules/health/routes';
 import productsHandler from './modules/products/routes';
