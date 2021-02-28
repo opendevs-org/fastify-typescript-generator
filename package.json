@@ -1,6 +1,6 @@
 {
   "name": "fastify-typescript-generator",
-  "version": "0.1.16",
+  "version": "0.1.18",
   "description": "Generate new Fastify applications similar to express-generate which but sets it up to use TypeScript instead",
   "preferGlobal": true,
   "scripts": {
@@ -74,14 +74,14 @@
   },
   "homepage": "https://github.com/open-devs/fastify-typescript-generator#readme",
   "dependencies": {
-    "cfonts": "^2.8.6",
+    "cfonts": "^2.9.1",
     "ncp": "^2.0.0",
-    "prompts": "^2.3.2",
-    "snyk": "^1.414.1"
+    "prompts": "^2.4.0",
+    "snyk": "^1.461.0"
   },
   "devDependencies": {
-    "eslint": "^7.7.0",
-    "git-cz": "^4.7.0"
+    "eslint": "^7.21.0",
+    "git-cz": "^4.7.6"
   },
   "config": {
     "commitizen": {
