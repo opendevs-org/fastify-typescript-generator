@@ -4,3 +4,4 @@ node_modules
 demo
 
 .vscode
+lib/templates/**/package-lock.json

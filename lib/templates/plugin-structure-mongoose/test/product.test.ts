@@ -28,7 +28,7 @@ describe('Product CRUD', () => {
 			category: 'Electronic appliances',
 			unit: 1
 		});
-		expect(response.name).toBe('JBL Headphone');
+		expect(response.toJSON().name).toBe('JBL Headphone');
 	});
 
 	test('Get all Products', async () => {
@@ -43,7 +43,7 @@ describe('Product CRUD', () => {
 
 	test('Product update is correct', async () => {
 		const responseTwo = await Product.findOne({ _id: '5f2678dff22e1f4a3c0782ee' });
-		expect(responseTwo.unit).toBe(2);
+		expect(responseTwo.toJSON().unit).toBe(2);
 	});
 
 	test('Delete Product DELETE /product/:id', async () => {
