@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "8.2.0",
-    "fastify": "^3.14.1",
+    "fastify": "^3.14.2",
     "fastify-cors": "5.2.0",
     "mongoose": "^5.12.3"
   },
@@ -28,10 +28,10 @@
     "nodemon": "^2.0.7",
     "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
-    "@typescript-eslint/eslint-plugin": "^4.20.0",
-    "@typescript-eslint/parser": "^4.20.0",
-    "eslint": "^7.23.0",
-    "typescript": "^4.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "typescript": "^4.2.4",
     "git-cz": "^4.7.6"
   }
 }

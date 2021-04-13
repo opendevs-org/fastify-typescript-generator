@@ -78,10 +78,10 @@
     "chalk": "^4.1.0",
     "ncp": "^2.0.0",
     "prompts": "^2.4.1",
-    "snyk": "^1.522.0"
+    "snyk": "^1.534.0"
   },
   "devDependencies": {
-    "eslint": "^7.23.0",
+    "eslint": "^7.24.0",
     "git-cz": "^4.7.6"
   },
   "config": {
