@@ -18,6 +18,7 @@ export const getOneProduct = async (id) => {
 
 export const createProduct = async (data) => {
 	try {
+		// TODO: failing at below line: debug
 		return await Product.create(data);
 	} catch (err) {
 		throw err;
@@ -26,7 +27,7 @@ export const createProduct = async (data) => {
 
 export const updateProduct = async (id, data) => {
 	try {
-		return await Product.updateOne({_id: id}, data);
+		return await Product.updateOne({ _id: id }, data);
 	} catch (err) {
 		throw err;
 	}
@@ -34,7 +35,7 @@ export const updateProduct = async (id, data) => {
 
 export const deleteProduct = async (id) => {
 	try {
-		return await Product.deleteOne({_id: id});
+		return await Product.deleteOne({ _id: id });
 	} catch (err) {
 		throw err;
 	}

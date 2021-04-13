@@ -1,25 +1,13 @@
 
 describe('Product CRUD', () => {
-	const mongoose = require('mongoose');
 	let server;
-	let connection;
-	let db;
 
 	beforeAll(async () => {
-		connection = await mongoose.connect('mongodb://localhost:27017/test_', { useNewUrlParser: true, useUnifiedTopology: true });
-		db = mongoose.connection;
-		const collection = 'test_product';
-		await db.createCollection(collection);
 		server = await require('../src/index');
 		await server.ready();
 	});
 
 	afterAll(async () => {
-		const collection = 'test_product';
-		await db.dropCollection(collection);
-		await db.dropDatabase();
-		await db.close();
-		await connection.close();
 		server.close();
 	});
 
