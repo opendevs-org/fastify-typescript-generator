@@ -14,8 +14,7 @@ export default function productHandler(server, options, next) {
 
 	server.get('/:_id', async (req, res) => {
 		req.log.info('get one products from db');
-		const id = req.params._id;
-		const products = await getOneProduct(id);
+		const products = await getOneProduct(req.params._id);
 		res.status(200).send(products);
 	});
 
@@ -27,8 +26,7 @@ export default function productHandler(server, options, next) {
 
 	server.put('/:_id', async (req, res) => {
 		req.log.info('Update product to db');
-		const id = req.params._id;
-		const products = await updateProduct(id, req.body);
+		const products = await updateProduct(req.params._id, req.body);
 		res.status(200).send(products);
 	});
 
@@ -37,8 +35,7 @@ export default function productHandler(server, options, next) {
 		{ schema: deleteProductSchema },
 		async (req, res) => {
 			req.log.info(`delete product ${req.params._id} from db`);
-			const id = req.params.id;
-			await deleteProduct(id);
+			await deleteProduct(req.params._id);
 			res.code(200).send('OK');
 		}
 	);

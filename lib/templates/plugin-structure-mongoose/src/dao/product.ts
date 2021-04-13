@@ -8,9 +8,9 @@ export const getAllProducts = async () => {
 	}
 };
 
-export const getOneProduct = async (id) => {
+export const getOneProduct = async (_id) => {
 	try {
-		return await Product.findOne({ _id: id });
+		return await Product.findOne({ _id });
 	} catch (err) {
 		throw err;
 	}
@@ -25,17 +25,17 @@ export const createProduct = async (data) => {
 	}
 };
 
-export const updateProduct = async (id, data) => {
+export const updateProduct = async (_id, data) => {
 	try {
-		return await Product.updateOne({ _id: id }, data);
+		return await Product.updateOne({ _id }, data);
 	} catch (err) {
 		throw err;
 	}
 };
 
-export const deleteProduct = async (id) => {
+export const deleteProduct = async (_id) => {
 	try {
-		return await Product.deleteOne({ _id: id });
+		return await Product.deleteOne({ _id });
 	} catch (err) {
 		throw err;
 	}

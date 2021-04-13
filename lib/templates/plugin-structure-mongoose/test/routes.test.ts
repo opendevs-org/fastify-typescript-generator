@@ -1,17 +1,22 @@
+import mongoose from 'mongoose';
 
 describe('Product CRUD', () => {
 	let server;
 
-	beforeAll(async () => {
+	beforeAll(async (done) => {
+		done();
 		server = await require('../src/index');
 		await server.ready();
 	});
 
-	afterAll(async () => {
+	afterAll(async (done) => {
 		server.close();
+		await mongoose.connection.close();
+		done();
 	});
 
 	test('Add Product POST /product', async (done) => {
+		server = await require('../src/index');
 		const response = await server.inject({
 			method: 'POST',
 			url: '/product',
