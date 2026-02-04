@@ -18,7 +18,7 @@
     "dotenv": "^8.2.0",
     "fastify": "^3.14.2",
     "fastify-oas": "^3.0.8",
-    "mongoose": "5.12.3"
+    "mongoose": "6.13.6"
   },
   "devDependencies": {
     "@types/babel__core": "^7.1.14",
