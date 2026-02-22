@@ -81,7 +81,7 @@
     "snyk": "^1.534.0"
   },
   "devDependencies": {
-    "eslint": "^7.24.0",
+    "eslint": "^10.0.1",
     "git-cz": "^4.7.6"
   },
   "config": {
